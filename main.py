@@ -10,7 +10,9 @@ import subprocess
 # If dracal-usb-get exits with a non-zero values, the subprocess.CalledProcessError
 # exception will be raised. Catch it.
 try:
-    p = subprocess.check_output(["dracal-usb-get","-i","0,1,2"])
+    path = "../dracalview/client/build/bin/"
+    p = subprocess.check_output([path + "dracal-usb-get","-i","0,1"]).decode('utf-8')
+    # p = "44.18, 22.35, 50.12"
 except subprocess.CalledProcessError:
     print("dracal-usb-get error")
     sys.exit(1)
@@ -25,7 +27,7 @@ fields = p.split(",")
 #
 # Detect errors by checking if the exact expected number
 # fields was returned.
-if len(fields) < 3:
+if len(fields) < 2:
     print("Error reading sensor")
     sys.exit(2)
 

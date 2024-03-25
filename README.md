@@ -19,6 +19,7 @@ python main.py
 
 
 ## Sample output
+<img src="https://github.com/Dracaltech/sample-python-cli/assets/1357711/44e35d8a-152f-4424-a3e2-dfc427c38c2b" width=400 />
 
 ```
 Ξ dracal/sample-python-cli git:(develop) ▶ python main.py

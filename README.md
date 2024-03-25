@@ -16,3 +16,15 @@ Run script
 ```
 python main.py
 ```
+
+
+## Sample output
+
+```
+Ξ dracal/sample-python-cli git:(develop) ▶ python main.py
+Temperature (C): 100.43
+RH......... (%): 23.93
+Pressure..(kPa): 53.01
+Temperature (F): 212.77400000000003
+Ξ dracal/sample-python-cli git:(develop) ▶
+```

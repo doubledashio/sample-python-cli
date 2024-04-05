@@ -32,9 +32,9 @@ if len(fields) < 2:
 # Convert the fields from strings to floating point values
 # This step is necessary, otherwise math on values will not
 # be possible.
-temperature = float(fields[0])
-rh = float(fields[1])
-pressure = float(fields[2])
+pressure = float(fields[0])
+temperature = float(fields[1])
+rh = float(fields[2])
 
 # Display values
 print("Temperature (C):", temperature)

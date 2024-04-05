@@ -1,5 +1,5 @@
-# sample-node-vcp
-Dracal // SDK code sample for Node on CLI
+# sample-python-vcp
+Dracal // SDK code sample for Python on CLI
 
 ## Assumptions
 
@@ -19,13 +19,13 @@ python main.py
 
 
 ## Sample output
-<img src="https://github.com/Dracaltech/sample-python-cli/assets/1357711/44e35d8a-152f-4424-a3e2-dfc427c38c2b" width=400 />
+<img src="https://github.com/Dracaltech/sample-python-cli/assets/1357711/86251866-40e0-4baf-bcc0-13668f548df6" width=400 />
 
 ```
 Ξ dracal/sample-python-cli git:(develop) ▶ python main.py
-Temperature (C): 100.43
-RH......... (%): 23.93
-Pressure..(kPa): 53.01
-Temperature (F): 212.77400000000003
+Temperature (C): 21.67
+RH......... (%): 56.9
+Pressure..(kPa): 101.17
+Temperature (F): 71.006
 Ξ dracal/sample-python-cli git:(develop) ▶
 ```
